@@ -125,11 +125,12 @@ function alienLanguage(str) {
 function automorphic(num) {
   let pow = Math.pow(num, 2).toString();
   if (pow.charAt(pow.length - 1) === num.toString()) {
+    console.log(pow.charAt(pow.length - 1) === num.toString());
     return "Automorphic";
   }
   return "Not!!";
 }
-// console.log(automorphic(5));
+// console.log(automorphic(76));
 // console.log(automorphic(1));
 // console.log(automorphic(8));
 
