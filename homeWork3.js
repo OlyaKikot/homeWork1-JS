@@ -94,7 +94,7 @@ class Person {
 }
 const a = new Person("johns", 3);
 
-console.log(a.getInfo());
+// console.log(a.getInfo());
 
 // Task 4*
 class HallOfFame {
@@ -118,7 +118,6 @@ class HallOfFame {
     )
       return this;
     const pl = this.players.find((pl) => pl[0] === el[0]);
-    console.log("pl: ", pl);
 
     if (!!pl)
       if (pl[1] < el[1]) {
